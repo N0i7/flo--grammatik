@@ -157,4 +157,16 @@ q:[
 {q:"Den Partner einbeziehen:", o:["Wie siehst du das?","Ich bin fertig.","Das war's."], c:0, h:"Rückfragen bringen Punkte in der Prüfung!"},
 {type:"gap", q:"Ein großer ___ ist, dass man online von überall lernen kann. <span class='en'>(advantage)</span>", a:["vorteil"], h:"der Vorteil ↔ der Nachteil."}
 ]}
+,
+{id:"plusquamperfekt", chip:"Plusquamperfekt", title:"Plusquamperfekt & nachdem", titleEn:"Past perfect — the past before the past",
+explain:"<p><b>hatte / war + Partizip II</b> — für das, was <b>vor</b> einem anderen Ereignis in der Vergangenheit passiert ist.</p><div class='ex'><b>Nachdem</b> ich die Prüfung <b>bestanden hatte</b>, feierte ich mit Freunden.<br>Er <b>war</b> schon <b>gegangen</b>, als ich ankam.</div><table class='wide'><tr><th>Zeit</th><th>Form</th><th>Beispiel</th></tr><tr><td>Perfekt</td><td>habe/bin + Partizip II</td><td>Ich habe gegessen.</td></tr><tr><td><b>Plusquamperfekt</b></td><td><b>hatte/war + Partizip II</b></td><td>Ich hatte gegessen.</td></tr></table><p>Die Regel für <b>nachdem</b>: Nebensatz im Plusquamperfekt, Hauptsatz im Präteritum oder Perfekt — die Zeiten sind immer verschoben.</p><p class='en'>hatte/war + participle. Use it with nachdem (after): the nachdem-clause is one step further back in time than the main clause. haben or sein follows the same rule as the Perfekt: movement and change of state take war.</p>",
+merk:"nachdem = eine Stufe weiter zurück. Nachdem ich gegessen hatte, ging ich.",
+merkEn:"nachdem = one step further back in time.",
+q:[
+{q:"Nachdem ich gegessen ___, ging ich schlafen.", o:["habe","hatte","war"], c:1, h:"essen → haben → hatte gegessen."},
+{q:"Er ___ schon gegangen, als ich kam.", o:["hatte","war","ist"], c:1, h:"gehen = Bewegung → war gegangen."},
+{q:"Welcher Satz ist korrekt?", o:["Nachdem ich aufstehe, frühstückte ich.","Nachdem ich aufgestanden war, frühstückte ich.","Nachdem ich aufgestanden bin, frühstückte ich."], c:1, h:"nachdem + Plusquamperfekt, Hauptsatz Präteritum."},
+{q:"Wir ___ die Wohnung gefunden, bevor wir umzogen.", o:["haben","hatten","waren"], c:1, h:"finden → haben → hatten gefunden."},
+{type:"gap", q:"Nachdem sie das Zertifikat bekommen ___, bewarb sie sich. <span class='en'>(had received)</span>", a:["hatte"], h:"bekommen → haben → hatte bekommen."}
+]}
 ]};

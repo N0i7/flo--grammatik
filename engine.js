@@ -105,4 +105,10 @@
   if(el) el.innerHTML = nx
     ? '<a class="cta" href="'+nx[0]+'.html">Weiter zu '+nx[1]+' →</a>'
     : '<a class="cta" href="index.html">Zurück zur Übersicht</a>';
+
+  // Direkt zum Thema springen, wenn ein Anker in der URL steht
+  if(location.hash){
+    const el = document.querySelector(location.hash);
+    if(el) setTimeout(()=>el.scrollIntoView({behavior:"smooth",block:"start"}), 60);
+  }
 })();
