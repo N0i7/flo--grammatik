@@ -108,7 +108,18 @@
 
   // Direkt zum Thema springen, wenn ein Anker in der URL steht
   if(location.hash){
-    const el = document.querySelector(location.hash);
-    if(el) setTimeout(()=>el.scrollIntoView({behavior:"smooth",block:"start"}), 60);
+    const jump = ()=>{
+      const el = document.querySelector(location.hash);
+      if(!el) return;
+      const root = document.documentElement;
+      const prev = root.style.scrollBehavior;
+      root.style.scrollBehavior = "auto";
+      window.scrollTo(0, el.getBoundingClientRect().top + window.pageYOffset - 58);
+      root.style.scrollBehavior = prev;
+    };
+    jump();
+    setTimeout(jump, 120);
+    setTimeout(jump, 500);
+    window.addEventListener("load", ()=>setTimeout(jump, 60));
   }
 })();
